@@ -13,6 +13,8 @@
     "start": "turbo run start",
     "lint": "turbo run lint",
     "seed": "ts-node --project tsconfig.seed.json scripts/seed-db.ts",
+    "smoke:mission": "bash scripts/smoke-mission-routes.sh",
+    "smoke:mission:ci": "bash scripts/smoke-mission-routes-ci.sh",
     "docker:up": "docker compose up -d",
     "docker:down": "docker compose down",
     "docker:logs": "docker compose logs -f"
