@@ -1,0 +1,18 @@
+node_modules/
+dist/
+.env
+.env.local
+*.log
+.DS_Store
+.turbo/
+coverage/
+.next/
+out/
+build/
+*.tsbuildinfo
+uploads/
+*.sqlite
+# Rust build artifacts
+target/
+# Rust lockfile (ignore for Rust programs only)
+Cargo.lock
